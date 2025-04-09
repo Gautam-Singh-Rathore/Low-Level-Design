@@ -20,7 +20,7 @@ If multiple threads try to modify them simultaneously without synchronization, i
 - **Race conditions**
 - **Unexpected exceptions**
 
-### Example: Using ArrayList in a Multithreaded Environment (Problematic)
+### Example: Using ArrayList in a Multithreaded Environment (Problematic) 
 
 ```java
 import java.util.ArrayList;
