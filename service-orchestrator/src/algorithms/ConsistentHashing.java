@@ -17,7 +17,6 @@ public class ConsistentHashing implements Router{
     Multiple threads might add/remove nodes, or route requests at the same time.
     These are thread-safe collections that prevent weird errors like ConcurrentModificationException.
      */
-
     /*
     Use concurrent collections when you have multiple threads reading and writing at the same time.
     But if you are doing multiple-step operations, be extra careful — or use atomic methods if available.
