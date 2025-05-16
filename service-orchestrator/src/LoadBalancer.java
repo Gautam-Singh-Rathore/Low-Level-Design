@@ -10,7 +10,7 @@ public class LoadBalancer { // The main manager. It keeps track of all Services 
     private final Map<String, Service> services;
     private final Map<String, Node> nodes;
 
-    public LoadBalancer(){
+    public LoadBalancer(){ 
         this.services=new ConcurrentHashMap<>();
         this.nodes=new ConcurrentHashMap<>();
     }
